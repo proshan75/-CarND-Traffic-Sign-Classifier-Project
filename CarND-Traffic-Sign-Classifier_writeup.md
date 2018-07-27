@@ -54,11 +54,11 @@ I used the numpy library to calculate summary statistics of the traffic signs da
 
 Here is an exploratory visualization of the data set. The histogram shown below displays number of images per class ID. This bar chart provides the overview and indicates that some of the class types have large number of images while others have significantly less. The impact of few images will be observed in learning and predicting those types of images.
 
-[image9]: ./examples/image_count_vs_sign_type.png "Histogram: Number of images Vs Class types"
+[image9]: https://github.com/proshan75/-CarND-Traffic-Sign-Classifier-Project/blob/master/examples/image_count_vs_sign_type.png "Histogram: Number of images Vs Class types"
 
 Though the histogram shows overall distribution, I wanted to know specific number of images per class types. So here I generated a table plot that shows number of images per class type. Following table image shows those specifics:
 
-[image10]: ./examples/table_image.png "Table: Number of images per Class type"
+[image10]: https://github.com/proshan75/-CarND-Traffic-Sign-Classifier-Project/blob/master/examples/table_image.png "Table: Number of images per Class type"
 
 Finally, I plotted one image for each class type. As there are multiple images for each class type, here I displayed the class specific image with random selection. This view gives the most valuable visual information. It shows some images are nice and clean while others are very dark and hard to see. 
 
@@ -70,7 +70,7 @@ As a first step, I decided to convert the images to grayscale because it reduces
 
 Here is an example of a traffic sign image before and after grayscaling.
 
-[image11]: ./examples/color_vs_gray.png "Image before and after applying grayscaling.."
+[image11]: https://github.com/proshan75/-CarND-Traffic-Sign-Classifier-Project/blob/master/examples/color_vs_gray.png "Image before and after applying grayscaling.."
 
 As a last step, images are normalized. The visualization of the images shows varying range of image brighness. By normalizing all the images, the image data is uniformally represented in the range on 0 to 1.  
 
