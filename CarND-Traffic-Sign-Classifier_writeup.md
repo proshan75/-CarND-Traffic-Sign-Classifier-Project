@@ -27,8 +27,6 @@ The goals / steps of this project are the following:
 [image6]: ./additional_signs/12.PNG "Class type 12"
 [image7]: ./additional_signs/13_b.jpg "Class type 13"
 [image8]: ./additional_signs/14.jpg "Class type 14"
-[image40]: ./additional_signs/18_c.png "Class type 18"
-[image50]: ./additional_signs/14.jpg "Class type 14"
 [image60]: ./additional_signs/18_c.png "Class type 18"
 [image70]: ./additional_signs/23.jpg "Class type 23"
 [image80]: ./additional_signs/25.jpg "Class type 25"
