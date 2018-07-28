@@ -149,14 +149,23 @@ Here are ten German traffic signs that I found on the web:
 ![alt text][image90] ![alt text][image100]  
 
 The first image (class type 1) might be difficult to classify as it has some watermark.
+
 The second image (class type 4) should be predicable accurately as the sample size for this class type is fairly high.
+
 The third image (class type 12) should be predicable accurately as the sample size for this class type is fairly high.
+
 The fourth image (class type 13) should be predicable accurately as the sample size for this class type is fairly high.
+
 The fifth image (class type 14) might be difficult to classify as it is a bit skewed and relatively lower number of images for this class type.
+
 The sixth image (class type 18) might be difficult due to a watermark on the image, also there is additional text board below the actual sign.
+
 The seventh image (class type 23) might be difficult to many details in the image for indicating skidding vehicle. Another factor is the sample size of this class type, the number of images seems a bit lower that others.
+
 The eigth image (class type 25) might be difficult to many details in the image for indicating vehicle.
+
 The ninth image (class type 28) might be difficult due to details in the image and relatively smaller sample size of images.
+
 The tenth image (class type 38) should be predicable accurately as the sample size for this class type is fairly high.
 
 
@@ -178,7 +187,6 @@ Here are the results of the prediction:
 | Road work	      		| Bicycles crossing				 				|
 | Children crossing		| Beware of ice/snow   							|
 | Keep right			| Keep right        							|
-|:---------------------:|:---------------------------------------------:| 
 
 
 The model was able to correctly guess 6 of the 10 traffic signs, which gives an accuracy of 60%. 
@@ -197,7 +205,6 @@ For the first image, the model is relatively sure that this is a 30 km/h sign (p
 | .0					| 80 km/h										|
 | .0	      			| Wild animals crossing			 				|
 | .0				    | Stop              							|
-|:---------------------:|:---------------------------------------------:| 
 
 
 For the second image, the model is relatively sure that this is a 70 km/h sign (probability of 0.997), and however the image  contains a 30 km/h sign. The top five soft max probabilities were
@@ -209,7 +216,6 @@ For the second image, the model is relatively sure that this is a 70 km/h sign (
 | .001					| 60 km/h										|
 | .001	      			| Roundabout mandatory			 				|
 | .0				    | Children crossing    							|
-|:---------------------:|:---------------------------------------------:| 
 
 
 For the third image, the model is relatively sure that this is a Priority road sign (probability of 1.0), and the image does contain a Priority road sign. The top five soft max probabilities were
@@ -221,7 +227,6 @@ For the third image, the model is relatively sure that this is a Priority road s
 | .0					| No vehicles									|
 | .0	      			| Keep right        			 				|
 | .0				    | End of all speed and passing limits			|
-|:---------------------:|:---------------------------------------------:| 
 
 
 For the fourth image, the model is relatively sure that this is a Priority road sign (probability of 1.0), and the image does contain a Priority road sign. The top five soft max probabilities were
@@ -233,7 +238,6 @@ For the fourth image, the model is relatively sure that this is a Priority road 
 | .0					| Ahead only									|
 | .0	      			| Children crossing    			 				|
 | .0				    | Turn left ahead   							|
-|:---------------------:|:---------------------------------------------:| 
 
 
 For the fifth image, the model is relatively sure that this is a Stop sign (probability of 1.0), and the image does contain a Stop sign. The top five soft max probabilities were
@@ -245,7 +249,6 @@ For the fifth image, the model is relatively sure that this is a Stop sign (prob
 | .0					| 20km/h    									|
 | .0	      			| Traffic signals      			 				|
 | .0				    | No vehicles 									|
-|:---------------------:|:---------------------------------------------:| 
 
 
 
