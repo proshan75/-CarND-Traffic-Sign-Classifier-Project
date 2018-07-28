@@ -142,10 +142,11 @@ Among the hyperparameters, the number of epoch seems to be the one affecting the
 
 Here are ten German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8] ![alt text][image40] 
-![alt text][image50] ![alt text][image60] ![alt text][image70] 
-![alt text][image80] ![alt text][image90] ![alt text][image100]  
+![alt text][image4] ![alt text][image5] 
+![alt text][image6] ![alt text][image7] 
+![alt text][image8] ![alt text][image60] 
+![alt text][image70] ![alt text][image80] 
+![alt text][image90] ![alt text][image100]  
 
 The first image (class type 1) might be difficult to classify as it has some watermark.
 The second image (class type 4) should be predicable accurately as the sample size for this class type is fairly high.
